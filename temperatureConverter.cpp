@@ -19,8 +19,8 @@ void temperature_converter(const int &temp_start, const int &temp_end, const int
 
 int main()
 {
-	int T_start = 10, T_high = 50, step = 2;
-	temperature_converter(T_start, T_high, step);
+    int T_start = 10, T_high = 50, step = 2;
+    temperature_converter(T_start, T_high, step);
 
     return 0;
 }
